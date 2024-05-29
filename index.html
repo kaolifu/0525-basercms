@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <script src="https://kit.fontawesome.com/39fb8d0692.js" crossorigin="anonymous"></script>
   <title>baserCMS</title>
 </head>
+
 <body>
   <header>
     <div class="background"></div>
@@ -31,41 +33,41 @@
         </ul>
       </div>
     </nav>
-      <div id="item-info-list" class="nav-list">
-        <i class="fa-solid fa-angle-down"></i>
-        <ul>
-          <li><a href="#">NEWS</a></li>
-          <li><a href="#">baserCMSとは?</a></li>
-          <li><a href="#">baserCMSの機能</a></li>
-          <li><a href="#">システム要件</a></li>
-          <li><a href="#">始めてガイド</a></li>
-          <li><a href="#">デモサイト</a></li>
-          <li><a href="#">導入事例</a></li>
-        </ul>
-      </div>
-      <div id="support-list"  class="nav-list">
-        <i class="fa-solid fa-angle-down"></i>
-        <ul>
-          <li><a href="#">公式ガイド<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-          <li><a href="#">ユーザーズフォーラム<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-          <li><a href="#">ユーザーマニュアル<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-          <li><a href="#">お問い合わせ<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-        </ul>
-      </div>
-      <div id="download-list" class="nav-list">
-        <i class="fa-solid fa-angle-down"></i>
-        <ul>
-          <li><a href="#">baserCMS</a></li>
-          <li><a href="#">デザインデータ</a></li>
-        </ul>
-      </div>
+    <div id="item-info-list" class="nav-list">
+      <i class="fa-solid fa-angle-down"></i>
+      <ul>
+        <li><a href="#">NEWS</a></li>
+        <li><a href="#">baserCMSとは?</a></li>
+        <li><a href="#">baserCMSの機能</a></li>
+        <li><a href="#">システム要件</a></li>
+        <li><a href="#">始めてガイド</a></li>
+        <li><a href="#">デモサイト</a></li>
+        <li><a href="#">導入事例</a></li>
+      </ul>
+    </div>
+    <div id="support-list" class="nav-list">
+      <i class="fa-solid fa-angle-down"></i>
+      <ul>
+        <li><a href="#">公式ガイド<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+        <li><a href="#">ユーザーズフォーラム<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+        <li><a href="#">ユーザーマニュアル<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+        <li><a href="#">お問い合わせ<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+      </ul>
+    </div>
+    <div id="download-list" class="nav-list">
+      <i class="fa-solid fa-angle-down"></i>
+      <ul>
+        <li><a href="#">baserCMS</a></li>
+        <li><a href="#">デザインデータ</a></li>
+      </ul>
+    </div>
 
     <section class="header-main">
       <h1><img src="./img/logo.svg" alt="" width="280"></h1>
       <h2>Webサイトを自由にカスタマイズ<br>無料で使える国産オープンソースCMS</h2>
       <div>
-        <button><i class="fa-regular fa-square-plus"></i>デモサイトを見る</button>
-        <button><i class="fa-solid fa-download"></i>今すぐダウンロード</button>
+        <button class="btn"><i class="fa-regular fa-square-plus"></i>デモサイトを見る</button>
+        <button class="btn"><i class="fa-solid fa-download"></i>今すぐダウンロード</button>
       </div>
       <div class="header-bottom">
         <i class="fa-solid fa-angle-down"></i>
@@ -73,7 +75,33 @@
       </div>
     </section>
   </header>
+  <section id="eye-catches"></section>
+
+  <section class="about">
+    <img src="./styles/img/img_about.png" alt="" class="background" width="589" height="552">
+    <h1><img src="./img/logo_icon.svg" alt="" width="44"></h1>
+    <h2>baserCMSとは？</h2>
+    <p>
+      Webサイトを自由にカスタマイズできるCMS（コンテンツ・マネジメント・システム）です。<br>
+      無料で使える国産のオープンソース・ソフトウェアとして、直感的な操作性と高いメンテナンス性、安全性を実現。<br>
+      さまざまなサーバーで動作可能で、簡単にインストールできます。
+    </p>
+    <ul>
+      <li><i class="fa-solid fa-check"></i>固定ページやブログ、フォームをまとめて管理</li>
+      <li><i class="fa-solid fa-check"></i>メールフォームや新着ブログなどのプラグインを標準装備</li>
+      <li><i class="fa-solid fa-check"></i>国産のソフトウェアなので安心・安全のセキュリティ</li>
+    </ul>
+    <button class="btn"><i class="fa-regular fa-square-plus"></i>デモサイトを見る</button>
+  </section>
+
+  <section class="case-section">
+    <h2>CASE</h2>
+    <h3>導入事例</h3>
+    <div id="cases"></div>
+    <a href="#"><i class="fa-solid fa-arrow-right"></i>VIEW MORE</a>
+  </section>
 
   <script src="main.js"></script>
 </body>
+
 </html>
